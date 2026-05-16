@@ -1,0 +1,194 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="font-awesome/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Portfolio</title>
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="navbar-container">
+                    
+                    <!-- Site Logo -->
+                    <a href="#home" class="logo">
+                        Emihle
+                    </a>
+
+                    <!-- Hamburger Menu -->
+                    <button class="navbar-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+
+                    <ul class="navbar-menu">
+                        <!-- Nav Links -->
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="#about">About Me</a> </li>
+                        <li> <a href="#projects">Projects</a> </li>
+                        <li> <a href="#contact" >Contact Me</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Home -->
+        <section class="home" id="home">
+
+            <div class="home-content">
+                <div class="typewriter">
+                    <h1> HI, I'M EMIHLE <span><3</span></h1>
+                </div>
+
+                <div class="social-media">
+                    <a href="https://linkedin.com/in/Emihle-Makala"> <i class="fa-brands fa-linkedin"></i> </a>
+                    <a href="https://github.com/SnowyParis"> <i class="fa-brands fa-github"></i> </a>
+                    <a href="https://instagram.com/rosettem86"> <i class="fa-brands fa-instagram"></i> </a>
+                </div>
+                <a href="files/CV.pdf" class="btn">Download CV</a>
+            </div>
+            
+        </section>
+        
+        <!-- About -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img class="filter-image" src="images/IMG-20260417-WA0239.jpg" alt="profile picture">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About Me</h2>
+
+                <div class="about-container">
+                    <p class="about-info">My name is Emihle Makala and I'm a Computer Science graduate from Free State, South Africa. 
+                        I am a tech enthusiast with a passion for building practical and interesting software. I primarily 
+                        work within the <b>Microsoft .NET ecosystem</b>, using technologies like <b>C#, ASP.NET, SQL, CSS, HTML, 
+                        and JavaScript</b> to solve problems across different environments. <br> <br>
+
+                        My experience spans backend and frontend development, API design, and database integration. I am always learning 
+                        and experimenting with technologies I have not used before and growing my development skills. My goal is to grow 
+                        as a developer by contributing to meaningful software projects.
+                    </p>
+
+                    <h3 class="stack-heading">Tools</h3>
+
+                    <p class="about-stack">
+                        <ul class="list">
+                            <li><b>Languages: </b>C#, Python, JavaScript</li>
+                            <li><b>Frameworks: </b>ASP.NET Core, .NET MVC</li>
+                            <li><b>Frontend: </b>CSS, HTML, JavaScript</li>
+                            <li><b>Databases: </b> SQL Server Management Studio (SSMS), SQLite</li>
+                            <li><b>Tools: </b>Git, GitHub, Visual Studio, Visual Studio Code</li>
+                            <li><b>Concepts: </b>OOP, MVC Architecture</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>  
+        </section>
+
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <h2 class="heading">Projects</h2>
+
+            <!-- Task Manager -->
+            <div class="projects-container">
+                <div class="project-container project-card">
+                    <img src="images/TaskManager/Screenshot (361).png" alt="Task-Manager" class="project-img">
+                    <h3 class="project-title">Task Manager</h3>
+
+                    <p class="project-details">A full-stack task management application built with <b>ASP.NET Core MVC (.NET 8)</b> 
+                        that enables users to efficiently create, manage, and track their tasks. The application supports full 
+                        <b>CRUD functionality</b>, allowing users to add, view, update, and delete tasks with ease.
+                    </p>
+                    <a href="projects.html#task-manager" class="project-link">Read more...</a>
+                </div>
+
+                <!-- Weather App -->
+                <div class="project-container project-card">
+                    <img src="images/TaskManager/Screenshot (362).png" alt="Weather-App" class="project-img">
+                    <h3 class="project-title">Weather App</h3>
+
+                    <p class="project-details">A simple and responsive weather application built with <b>HTML, CSS and JavaScript</b> that allows users to search 
+                         the weather for any city and view real-time weather information about the temperature, cloud cover, humidity and wind speed for the 
+                         specified city for that date.
+                    </p>
+                    <a href="projects.html#weather-app" class="project-link">Read more...</a>
+                </div>
+
+                <!-- Coming -->
+                <div class="project-container project-card" style="display: none;" >
+                    <img src="images/TaskManager/Screenshot (364).png" alt="Coming" class="project-img">
+                    <h3 class="project-title">Coming</h3>
+
+                    <p class="project-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nihil molestias saepe
+                        facilis unde impedit autem deserunt, sequi quisquam minima recusandae quidem dignissimos odit nulla similique? Nulla 
+                        iste temporibus error.
+                    </p>
+                    <a href="#" class="project-link">Read more...</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+         <section class="contact" id="contact">
+            <h2 class="heading">Contact Me</h2>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="input-box">
+                    <input type="hidden" name="access_key" value="a8a195fc-a7c9-47b1-afd9-8aa591dadd34">
+                    <input type="text" name="name" placeholder="Full name" required>
+                    <input type="email" name="email" placeholder="Email address" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile number" required>
+                    <input type="text" placeholder="Email subject" required>
+                </div>
+
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+
+         </section>
+
+         <!-- Footer -->
+         <footer class="footer">
+            <div class="info">
+                <div class="current">
+                    <p class="current-info">
+                        Currently learning:
+                        <i class="fa-brands fa-js"></i>
+                        JavaScript
+                    </p>
+                </div>
+
+                <h4>Thanks for stopping by!</h4>
+
+                <div class="details">
+                    <p class="details-info"> 
+                        <i class="fa-regular fa-address-book"></i>
+                        Tel: +27 671 000 900 <br>
+                        Email: rosiemakala82@gmail.com
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-text">
+                <p>Copyright &copy; 2026 by Emihle Makala</p>
+            
+                <div class="footer-iconTop">
+                    <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+                </div>
+            </div>
+         </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
+</DOCTYPE>
